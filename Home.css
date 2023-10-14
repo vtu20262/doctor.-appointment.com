@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('doc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Prevents image repetition */
+}
+
+header {
+    background-color: #44c1b6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+/* Home Page Styles */
+main p {
+    text-align: center;
+}
+
+main a {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    width: 120px;
+    padding: 10px;
+    background-color: #44c1b6;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 4px;
+    border: 2px solid #000000;
+    transition: background-color 0.3s ease;
+}
+
+main a:hover {
+    background-color: #9dede6;
+}
+nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding from the list */
+}
+
+nav li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px;
+    padding: 5px; /* Add spacing between navigation options */
+}
+
+nav a {
+    
+    border: 2px solid #000000;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    background-color:#44c1b6 ;
+    text-decoration: none; /* Remove underlines from links */
+    color: #000000; /* Set link text color */
+}
+
+/* Style links on hover (e.g., change color) */
+nav a:hover {
+    background-color: #9dede6; /* Change color on hover */
+}

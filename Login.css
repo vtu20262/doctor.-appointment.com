@@ -1,0 +1,59 @@
+body{
+    background-image: url('doc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #44c1b6;
+    color: white;
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #44c1b6;
+}
+
+form p {
+    text-align: center;
+}
+
+form p a {
+    text-decoration: none;
+    color: #44c1b6;
+    font-weight: bold;
+    text-align: center;
+}
+
+form p a:hover {
+    text-decoration: underline;
+}
+header {
+    background-color: #44c1b6;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}

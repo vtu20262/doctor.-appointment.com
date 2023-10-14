@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Doctor Appointment System</h1>
+    </header>
+    <main>
+        <section id="appointment-form">
+            <h2>Book an Appointment</h2>
+            <form id="appointment-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required><br>
+
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required><br>
+
+                <button type="button" id="book-appointment">Book Appointment</button>
+            </form>
+        </section>
+        <section id="appointment-list">
+            <h2>Upcoming Appointments</h2>
+            <ul id="appointments">
+                <!-- Appointments will be listed here -->
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

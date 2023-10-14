@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Doctor Appointment Booking</h1>
+    </header>
+    <main>
+        <section id="appointment-form">
+            <h2>Book an Appointment</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="doctor">Select a Doctor:</label>
+                <select id="doctor" required>
+                    <option value="Dr. Smith">Dr. Smith</option>
+                    <option value="Dr. Jones">Dr. Jones</option>
+                    <!-- Add more doctors as needed -->
+                </select>
+                <br>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required><br>
+
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required><br>
+
+                <button type="submit">Book Appointment</button>
+            </form>
+        </section>
+        <section id="appointment-list">
+            <h2>Upcoming Appointments</h2>
+            <ul id="appointments">
+                <!-- Appointments will be listed here -->
+            </ul>
+        </section>
+    </main>
+    <center>
+        <button id="show-appointments-button">Show Appointments</button>
+        <button id="hide-appointments-button">Hide Appointments</button>
+    </center>
+    <br>
+    <br>
+    <script src="hide.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
